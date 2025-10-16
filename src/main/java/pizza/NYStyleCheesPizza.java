@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class NYStyleCheesPizza extends Pizza {
     public ArrayList<String> addToPpings(){
         ArrayList<String> s = new ArrayList<>();
-        System.out.println("Выбирете ингридиенты!");
+        System.out.println("Выбирете ингридиенты:");
         Scanner sc = new Scanner(System.in);
         s.add(sc.nextLine());
         return s;
